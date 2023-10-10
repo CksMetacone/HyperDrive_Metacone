@@ -19,7 +19,7 @@ HyperDrive presentation : loading
 
 Version Closed Beta presentation : https://www.youtube.com/shorts/H20YUjibCgM
 
-Version Beta1 : We are a strong team that develops AI algorithms. (But chatgpt is used for this demo) We will participate in the competition of the Solana hackhaton with our mobile application. 
+Version Beta1 : We are a strong team that develops AI algorithms. (Metacone Algorithm is used for this demo) We will participate in the competition of the Solana hackhaton with our mobile application. 
 
 In this way, you will have a special assistant who knows you better with your special data, as well as faster access to your special needs.
 
