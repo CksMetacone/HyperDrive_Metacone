@@ -1,0 +1,2662 @@
+{
+    "blender fbx_export_unity": {
+        "Version": "1.10.1822.1",
+        "Scene": {
+            "Name": true,
+            "SupportShaderSelect": true
+        },
+        "Object": {
+            "blender fbx_export_unity": {
+                "Generation": "RL_CC3_Plus",
+                "Meshes": {
+                    "CC_Base_Tongue": {
+                        "Materials": {
+                            "Std_Tongue": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": false,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    125.00000762939453,
+                                    125.00000762939453,
+                                    125.00000762939453
+                                ],
+                                "Specular Color": [
+                                    229.00001525878906,
+                                    229.00001525878906,
+                                    229.00001525878906
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Metallic": {
+                                        "Texture Path": "textures\\blender fbx_export_unity\\blender fbx_export_unity\\CC_Base_Tongue\\Std_Tongue\\Std_Tongue_metallic.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Base Color": {
+                                        "Texture Path": "textures\\blender fbx_export_unity\\Unpack\\Std_Tongue_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "textures\\blender fbx_export_unity\\blender fbx_export_unity\\CC_Base_Tongue\\Std_Tongue\\Std_Tongue_roughness.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Normal": {
+                                        "Texture Path": "textures\\blender fbx_export_unity\\Unpack\\Std_Tongue_Normal.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "AO": {
+                                        "Texture Path": "textures\\blender fbx_export_unity\\blender fbx_export_unity\\CC_Base_Tongue\\Std_Tongue\\Std_Tongue_ao.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    }
+                                },
+                                "Custom Shader": {
+                                    "Shader Name": "RLTongue",
+                                    "Image": {
+                                        "MicroNormal": {
+                                            "Texture Path": "textures\\blender fbx_export_unity\\blender fbx_export_unity\\CC_Base_Tongue\\Std_Tongue\\Std_Tongue_MicroN.png"
+                                        },
+                                        "Gradient AO": {
+                                            "Texture Path": "textures\\blender fbx_export_unity\\CC_Base_Teeth\\CC_Base_Teeth\\Std_Upper_Teeth\\Std_Upper_Teeth_GradAO.jpg"
+                                        }
+                                    },
+                                    "Variable": {
+                                        "Flip MicroNormal Y": 1.0,
+                                        "MicroNormal Tiling": 4.0,
+                                        "MicroNormal Strength": 0.5,
+                                        "_Brightness": 1.0,
+                                        "_Desaturation": 0.050000011920928955,
+                                        "Front Roughness": 1.0,
+                                        "Front Specular": 0.2590000033378601,
+                                        "Back Roughness": 1.0,
+                                        "Back Specular": 0.0,
+                                        "Front AO": 1.0,
+                                        "Back AO": 0.0,
+                                        "_Scatter": 1.0
+                                    }
+                                },
+                                "Subsurface Scatter": {
+                                    "Falloff": [
+                                        255.0,
+                                        236.00000113248825,
+                                        212.00000256299973
+                                    ],
+                                    "Radius": 1.277999997138977,
+                                    "Distribution": 0.9300000071525574,
+                                    "IOR": 1.5499999523162842,
+                                    "DecayScale": 0.15000000596046448,
+                                    "Lerp": 0.8999999761581421
+                                }
+                            }
+                        }
+                    },
+                    "CC_Base_Body": {
+                        "Materials": {
+                            "Std_Skin_Head": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": false,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    125.00000762939453,
+                                    125.00000762939453,
+                                    125.00000762939453
+                                ],
+                                "Specular Color": [
+                                    229.00001525878906,
+                                    229.00001525878906,
+                                    229.00001525878906
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Base Color": {
+                                        "Texture Path": ".ad_Diffuse.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "./textures/blender fbx/blender fbx/CC_Base_Body/Std_Skin_Head/Std_Skin_Head_roughness.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Normal": {
+                                        "Texture Path": ".ad_Normal.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "AO": {
+                                        "Texture Path": "./textures/blender fbx/blender fbx/CC_Base_Body/Std_Skin_Head/Std_Skin_Head_ao.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    }
+                                },
+                                "Custom Shader": {
+                                    "Shader Name": "RLHead",
+                                    "Image": {
+                                        "Specular Mask": {
+                                            "Texture Path": "./textures/blender fbx/blender fbx/CC_Base_Body/Std_Skin_Head/Std_Skin_Head_SpecMask.jpg"
+                                        },
+                                        "Transmission Map": {
+                                            "Texture Path": "./textures/blender fbx/blender fbx/CC_Base_Body/Std_Skin_Head/Std_Skin_Head_TransMap.png"
+                                        },
+                                        "Mouth Cavity Mask and AO": {
+                                            "Texture Path": "./textures/blender fbx/blender fbx/CC_Base_Body/Std_Skin_Head/Std_Skin_Head_MNAOMask.tga"
+                                        },
+                                        "SSS Map": {
+                                            "Texture Path": "./textures/blender fbx/blender fbx/CC_Base_Body/Std_Skin_Head/Std_Skin_Head_SSSMap.jpg"
+                                        },
+                                        "MicroNormal": {
+                                            "Texture Path": "./textures/blender fbx/blender fbx/CC_Base_Tongue/Std_Tongue/Std_Tongue_MicroN.png"
+                                        },
+                                        "Cheek Fore UpperLip Chin Mask": {
+                                            "Texture Path": "./textures/blender fbx/blender fbx/CC_Base_Body/Std_Skin_Head/Std_Skin_Head_CFULCMask.tga"
+                                        },
+                                        "Ear Neck Mask": {
+                                            "Texture Path": "./textures/blender fbx/blender fbx/CC_Base_Body/Std_Skin_Head/Std_Skin_Head_ENMask.tga"
+                                        },
+                                        "Nose Mouth UpperInnerLid Mask": {
+                                            "Texture Path": "./textures/blender fbx/blender fbx/CC_Base_Body/Std_Skin_Head/Std_Skin_Head_NMUILMask.tga"
+                                        },
+                                        "BaseColor Blend2": {
+                                            "Texture Path": "./textures/blender fbx/blender fbx/CC_Base_Body/Std_Skin_Head/Std_Skin_Head_BCBMap.jpg"
+                                        },
+                                        "NormalMap Blend": {
+                                            "Texture Path": "./textures/blender fbx/blender fbx/CC_Base_Body/Std_Skin_Head/Std_Skin_Head_NBMap.jpg"
+                                        },
+                                        "MicroNormalMask": {
+                                            "Texture Path": "./textures/blender fbx/blender fbx/CC_Base_Body/Std_Skin_Head/Std_Skin_Head_MicroNMask.jpg"
+                                        }
+                                    },
+                                    "Variable": {
+                                        "BaseColor Blend2 Strength": 0.699999988079071,
+                                        "NormalMap Blend Strength": 0.30000001192092896,
+                                        "_BaseColorMap Brightness": 0.029999999329447746,
+                                        "_BaseColorMap Saturation": -0.07000000029802322,
+                                        "Flip MicroNormal Y": 1.0,
+                                        "MicroNormal Tiling": 20.06999969482422,
+                                        "MicroNormal Strength": 0.800000011920929,
+                                        "Keep Original Roughness": 0.0,
+                                        "Micro Roughness Scale": 0.16599999368190765,
+                                        "Nose Roughness Scale": -0.4880000054836273,
+                                        "Mouth Roughness Scale": -0.4309999942779541,
+                                        "UpperLid Roughness Scale": -0.6039999723434448,
+                                        "InnerLid Roughness Scale": -0.5600000023841858,
+                                        "Ear Roughness Scale": -0.1770000010728836,
+                                        "Neck Roughness Scale": 0.0,
+                                        "Cheek Roughness Scale": -0.06700000166893005,
+                                        "Forehead Roughness Scale": -0.09099999815225601,
+                                        "UpperLip Roughness Scale": -0.11699999868869781,
+                                        "Chin Roughness Scale": 0.0,
+                                        "Unmasked Roughness Scale": -0.1379999965429306,
+                                        "Edge Roughness Multiplier": 0.04399999976158142,
+                                        "_Specular": 0.44999998807907104,
+                                        "SSS Metallic Threshold": 1.0,
+                                        "Inner Mouth Ao": 2.5,
+                                        "Nostril Ao": 2.5,
+                                        "Lips Gap Ao": 2.5,
+                                        "Nose Scatter Scale": 1.3949999809265137,
+                                        "Mouth Scatter Scale": 1.2999999523162842,
+                                        "UpperLid Scatter Scale": 1.0,
+                                        "InnerLid Scatter Scale": 1.0,
+                                        "Ear Scatter Scale": 1.5,
+                                        "Neck Scatter Scale": 1.0,
+                                        "Cheek Scatter Scale": 1.0,
+                                        "Forehead Scatter Scale": 1.0,
+                                        "UpperLip Scatter Scale": 1.0,
+                                        "Chin Scatter Scale": 1.0,
+                                        "Unmasked Scatter Scale": 1.0
+                                    }
+                                },
+                                "Subsurface Scatter": {
+                                    "Falloff": [
+                                        255.0,
+                                        94.3499984741211,
+                                        76.5
+                                    ],
+                                    "Radius": 2.062999963760376,
+                                    "Distribution": 0.4000000059604645,
+                                    "IOR": 3.0,
+                                    "DecayScale": 0.15000000596046448,
+                                    "Lerp": 0.8500000238418579
+                                }
+                            },
+                            "Std_Skin_Body": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": false,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    125.00000762939453,
+                                    125.00000762939453,
+                                    125.00000762939453
+                                ],
+                                "Specular Color": [
+                                    229.00001525878906,
+                                    229.00001525878906,
+                                    229.00001525878906
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Base Color": {
+                                        "Texture Path": ".dy_Diffuse.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "./textures/blender fbx/blender fbx/CC_Base_Body/Std_Skin_Body/Std_Skin_Body_roughness.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Normal": {
+                                        "Texture Path": ".dy_Normal.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "AO": {
+                                        "Texture Path": "./textures/blender fbx/blender fbx/CC_Base_Body/Std_Skin_Body/Std_Skin_Body_ao.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    }
+                                },
+                                "Custom Shader": {
+                                    "Shader Name": "RLSkin",
+                                    "Image": {
+                                        "Transmission Map": {
+                                            "Texture Path": "./textures/blender fbx/blender fbx/CC_Base_Body/Std_Skin_Body/Std_Skin_Body_TransMap.png"
+                                        },
+                                        "RGBA Area Mask": {
+                                            "Texture Path": "./textures/blender fbx/blender fbx/CC_Base_Body/Std_Skin_Body/Std_Skin_Body_RGBAMask.tga"
+                                        },
+                                        "SSS Map": {
+                                            "Texture Path": "./textures/blender fbx/blender fbx/CC_Base_Body/Std_Skin_Body/Std_Skin_Body_SSSMap.png"
+                                        },
+                                        "MicroNormal": {
+                                            "Texture Path": "./textures/blender fbx/blender fbx/CC_Base_Tongue/Std_Tongue/Std_Tongue_MicroN.png"
+                                        },
+                                        "MicroNormalMask": {
+                                            "Texture Path": "./textures/blender fbx/blender fbx/CC_Base_Body/Std_Skin_Body/Std_Skin_Body_MicroNMask.jpg"
+                                        }
+                                    },
+                                    "Variable": {
+                                        "_BaseColorMap Brightness": 0.029999999329447746,
+                                        "_BaseColorMap Saturation": -0.07000000029802322,
+                                        "Flip MicroNormal Y": 1.0,
+                                        "MicroNormal Tiling": 27.027000427246094,
+                                        "MicroNormal Strength": 0.800000011920929,
+                                        "Keep Original Roughness": 0.0,
+                                        "Micro Roughness Scale": 0.10999999940395355,
+                                        "R Channel Roughness Scale": 0.0,
+                                        "G Channel Roughness Scale": 0.0,
+                                        "B Channel Roughness Scale": 0.0,
+                                        "A Channel Roughness Scale": 0.0,
+                                        "Unmasked Roughness Scale": -0.2329999953508377,
+                                        "Edge Roughness Multiplier": 0.04399999976158142,
+                                        "_Specular": 0.44999998807907104,
+                                        "SSS Metallic Threshold": 1.0,
+                                        "R Channel Scatter Scale": 1.0,
+                                        "G Channel Scatter Scale": 1.0,
+                                        "B Channel Scatter Scale": 1.0,
+                                        "A Channel Scatter Scale": 1.0,
+                                        "Unmasked Scatter Scale": 1.0
+                                    }
+                                },
+                                "Subsurface Scatter": {
+                                    "Falloff": [
+                                        255.0,
+                                        94.3499984741211,
+                                        76.5
+                                    ],
+                                    "Radius": 1.5,
+                                    "Distribution": 0.4000000059604645,
+                                    "IOR": 3.0,
+                                    "DecayScale": 0.15000000596046448,
+                                    "Lerp": 0.8500000238418579
+                                }
+                            },
+                            "Std_Skin_Arm": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": false,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    125.00000762939453,
+                                    125.00000762939453,
+                                    125.00000762939453
+                                ],
+                                "Specular Color": [
+                                    229.00001525878906,
+                                    229.00001525878906,
+                                    229.00001525878906
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Base Color": {
+                                        "Texture Path": ".m_Diffuse.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "./textures/blender fbx/blender fbx/CC_Base_Body/Std_Skin_Arm/Std_Skin_Arm_roughness.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Normal": {
+                                        "Texture Path": ".m_Normal.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "AO": {
+                                        "Texture Path": "./textures/blender fbx/blender fbx/CC_Base_Body/Std_Skin_Arm/Std_Skin_Arm_ao.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    }
+                                },
+                                "Custom Shader": {
+                                    "Shader Name": "RLSkin",
+                                    "Image": {
+                                        "Transmission Map": {
+                                            "Texture Path": "./textures/blender fbx/blender fbx/CC_Base_Body/Std_Skin_Arm/Std_Skin_Arm_TransMap.png"
+                                        },
+                                        "RGBA Area Mask": {
+                                            "Texture Path": "./textures/blender fbx/blender fbx/CC_Base_Body/Std_Skin_Arm/Std_Skin_Arm_RGBAMask.tga"
+                                        },
+                                        "SSS Map": {
+                                            "Texture Path": "./textures/blender fbx/blender fbx/CC_Base_Body/Std_Skin_Arm/Std_Skin_Arm_SSSMap.png"
+                                        },
+                                        "MicroNormal": {
+                                            "Texture Path": "./textures/blender fbx/blender fbx/CC_Base_Tongue/Std_Tongue/Std_Tongue_MicroN.png"
+                                        },
+                                        "MicroNormalMask": {
+                                            "Texture Path": "./textures/blender fbx/blender fbx/CC_Base_Body/Std_Skin_Arm/Std_Skin_Arm_MicroNMask.jpg"
+                                        }
+                                    },
+                                    "Variable": {
+                                        "_BaseColorMap Brightness": 0.029999999329447746,
+                                        "_BaseColorMap Saturation": -0.07000000029802322,
+                                        "Flip MicroNormal Y": 1.0,
+                                        "MicroNormal Tiling": 42.0,
+                                        "MicroNormal Strength": 0.800000011920929,
+                                        "Keep Original Roughness": 0.0,
+                                        "Micro Roughness Scale": 0.10999999940395355,
+                                        "R Channel Roughness Scale": 0.0,
+                                        "G Channel Roughness Scale": 0.0,
+                                        "B Channel Roughness Scale": 0.0,
+                                        "A Channel Roughness Scale": 0.0,
+                                        "Unmasked Roughness Scale": -0.1379999965429306,
+                                        "Edge Roughness Multiplier": 0.04399999976158142,
+                                        "_Specular": 0.44999998807907104,
+                                        "SSS Metallic Threshold": 1.0,
+                                        "R Channel Scatter Scale": 1.0,
+                                        "G Channel Scatter Scale": 1.0,
+                                        "B Channel Scatter Scale": 1.0,
+                                        "A Channel Scatter Scale": 1.0,
+                                        "Unmasked Scatter Scale": 1.0
+                                    }
+                                },
+                                "Subsurface Scatter": {
+                                    "Falloff": [
+                                        255.0,
+                                        94.3499984741211,
+                                        76.5
+                                    ],
+                                    "Radius": 1.5,
+                                    "Distribution": 0.4000000059604645,
+                                    "IOR": 3.0,
+                                    "DecayScale": 0.15000000596046448,
+                                    "Lerp": 0.8500000238418579
+                                }
+                            },
+                            "Std_Skin_Leg": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": false,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    125.00000762939453,
+                                    125.00000762939453,
+                                    125.00000762939453
+                                ],
+                                "Specular Color": [
+                                    229.00001525878906,
+                                    229.00001525878906,
+                                    229.00001525878906
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Base Color": {
+                                        "Texture Path": ".g_Diffuse.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "./textures/blender fbx/blender fbx/CC_Base_Body/Std_Skin_Leg/Std_Skin_Leg_roughness.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Normal": {
+                                        "Texture Path": ".g_Normal.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "AO": {
+                                        "Texture Path": "./textures/blender fbx/blender fbx/CC_Base_Body/Std_Skin_Leg/Std_Skin_Leg_ao.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    }
+                                },
+                                "Custom Shader": {
+                                    "Shader Name": "RLSkin",
+                                    "Image": {
+                                        "Transmission Map": {
+                                            "Texture Path": "./textures/blender fbx/blender fbx/CC_Base_Body/Std_Skin_Leg/Std_Skin_Leg_TransMap.png"
+                                        },
+                                        "RGBA Area Mask": {
+                                            "Texture Path": "./textures/blender fbx/blender fbx/CC_Base_Body/Std_Skin_Leg/Std_Skin_Leg_RGBAMask.tga"
+                                        },
+                                        "SSS Map": {
+                                            "Texture Path": "./textures/blender fbx/blender fbx/CC_Base_Body/Std_Skin_Leg/Std_Skin_Leg_SSSMap.png"
+                                        },
+                                        "MicroNormal": {
+                                            "Texture Path": "./textures/blender fbx/blender fbx/CC_Base_Tongue/Std_Tongue/Std_Tongue_MicroN.png"
+                                        },
+                                        "MicroNormalMask": {
+                                            "Texture Path": "./textures/blender fbx/blender fbx/CC_Base_Body/Std_Skin_Leg/Std_Skin_Leg_MicroNMask.jpg"
+                                        }
+                                    },
+                                    "Variable": {
+                                        "_BaseColorMap Brightness": 0.029999999329447746,
+                                        "_BaseColorMap Saturation": -0.07000000029802322,
+                                        "Flip MicroNormal Y": 1.0,
+                                        "MicroNormal Tiling": 42.0,
+                                        "MicroNormal Strength": 0.800000011920929,
+                                        "Keep Original Roughness": 0.0,
+                                        "Micro Roughness Scale": 0.10999999940395355,
+                                        "R Channel Roughness Scale": 0.0,
+                                        "G Channel Roughness Scale": 0.0,
+                                        "B Channel Roughness Scale": 0.0,
+                                        "A Channel Roughness Scale": 0.0,
+                                        "Unmasked Roughness Scale": 0.0,
+                                        "Edge Roughness Multiplier": 0.04399999976158142,
+                                        "_Specular": 0.44999998807907104,
+                                        "SSS Metallic Threshold": 1.0,
+                                        "R Channel Scatter Scale": 1.0,
+                                        "G Channel Scatter Scale": 1.0,
+                                        "B Channel Scatter Scale": 1.0,
+                                        "A Channel Scatter Scale": 1.0,
+                                        "Unmasked Scatter Scale": 1.0
+                                    }
+                                },
+                                "Subsurface Scatter": {
+                                    "Falloff": [
+                                        255.0,
+                                        94.3499984741211,
+                                        76.5
+                                    ],
+                                    "Radius": 1.5,
+                                    "Distribution": 0.4000000059604645,
+                                    "IOR": 3.0,
+                                    "DecayScale": 0.15000000596046448,
+                                    "Lerp": 0.8500000238418579
+                                }
+                            },
+                            "Std_Nails": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": false,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    125.00000762939453,
+                                    125.00000762939453,
+                                    125.00000762939453
+                                ],
+                                "Specular Color": [
+                                    229.00001525878906,
+                                    229.00001525878906,
+                                    229.00001525878906
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Base Color": {
+                                        "Texture Path": ".iffuse.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "./textures/blender fbx/blender fbx/CC_Base_Body/Std_Nails/Std_Nails_roughness.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Normal": {
+                                        "Texture Path": ".ormal.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "AO": {
+                                        "Texture Path": "./textures/blender fbx/blender fbx/CC_Base_Body/Std_Nails/Std_Nails_ao.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    }
+                                },
+                                "Custom Shader": {
+                                    "Shader Name": "RLSkin",
+                                    "Image": {
+                                        "Transmission Map": {
+                                            "Texture Path": "./textures/blender fbx/blender fbx/CC_Base_Body/Std_Nails/Std_Nails_TransMap.png"
+                                        },
+                                        "RGBA Area Mask": {
+                                            "Texture Path": "./textures/blender fbx/blender fbx/CC_Base_Body/Std_Nails/Std_Nails_RGBAMask.tga"
+                                        },
+                                        "SSS Map": {
+                                            "Texture Path": "./textures/blender fbx/blender fbx/CC_Base_Body/Std_Nails/Std_Nails_SSSMap.jpg"
+                                        },
+                                        "MicroNormal": {
+                                            "Texture Path": "./textures/blender fbx/blender fbx/CC_Base_Tongue/Std_Tongue/Std_Tongue_MicroN.png"
+                                        },
+                                        "MicroNormalMask": {
+                                            "Texture Path": "./textures/blender fbx/blender fbx/CC_Base_Body/Std_Nails/Std_Nails_MicroNMask.jpg"
+                                        }
+                                    },
+                                    "Variable": {
+                                        "_BaseColorMap Brightness": 0.0,
+                                        "_BaseColorMap Saturation": 0.0,
+                                        "Flip MicroNormal Y": 1.0,
+                                        "MicroNormal Tiling": 42.0,
+                                        "MicroNormal Strength": 1.0,
+                                        "Keep Original Roughness": 0.0,
+                                        "Micro Roughness Scale": -0.20000000298023224,
+                                        "R Channel Roughness Scale": 0.0,
+                                        "G Channel Roughness Scale": 0.0,
+                                        "B Channel Roughness Scale": 0.0,
+                                        "A Channel Roughness Scale": 0.0,
+                                        "Unmasked Roughness Scale": 0.0,
+                                        "Edge Roughness Multiplier": 0.04399999976158142,
+                                        "_Specular": 0.4000000059604645,
+                                        "SSS Metallic Threshold": 1.0,
+                                        "R Channel Scatter Scale": 1.0,
+                                        "G Channel Scatter Scale": 1.0,
+                                        "B Channel Scatter Scale": 1.0,
+                                        "A Channel Scatter Scale": 1.0,
+                                        "Unmasked Scatter Scale": 1.0
+                                    }
+                                },
+                                "Subsurface Scatter": {
+                                    "Falloff": [
+                                        255.0,
+                                        94.3499984741211,
+                                        76.5
+                                    ],
+                                    "Radius": 1.5,
+                                    "Distribution": 0.4000000059604645,
+                                    "IOR": 3.0,
+                                    "DecayScale": 0.15000000596046448,
+                                    "Lerp": 0.8500000238418579
+                                }
+                            },
+                            "Std_Eyelash": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": false,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    125.00000762939453,
+                                    125.00000762939453,
+                                    125.00000762939453
+                                ],
+                                "Specular Color": [
+                                    229.00001525878906,
+                                    229.00001525878906,
+                                    229.00001525878906
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Base Color": {
+                                        "Texture Path": "._Diffuse.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "./textures/blender fbx/blender fbx/CC_Base_Body/Std_Eyelash/Std_Eyelash_roughness.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Opacity": {
+                                        "Texture Path": "._Opacity.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Normal": {
+                                        "Texture Path": "._Normal.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "AO": {
+                                        "Texture Path": "./textures/blender fbx/blender fbx/CC_Base_Body/Std_Eyelash/Std_Eyelash_ao.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    }
+                                }
+                            },
+                            "Std_Skin_Head_B100": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": true,
+                                "Diffuse Color": [
+                                    255,
+                                    255,
+                                    255
+                                ],
+                                "Ambient Color": [
+                                    150.0,
+                                    150.0,
+                                    150.0
+                                ],
+                                "Specular Color": [
+                                    130,
+                                    130,
+                                    130
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Base Color": {
+                                        "Texture Path": "textures\\blender fbx_export_unity\\Baked\\EXPORT_BAKE_Std_Skin_Head_B100_Base Color_1001.png",
+                                        "Strength": 100,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Metallic": {
+                                        "Texture Path": "Baked\\Std_Skin_Head_B100_Metallic.png",
+                                        "Strength": 100,
+                                        "Offset": [
+                                            0,
+                                            0
+                                        ],
+                                        "Tiling": [
+                                            1,
+                                            1
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "Baked\\Std_Skin_Head_B100_Roughness.png",
+                                        "Strength": 100,
+                                        "Offset": [
+                                            0,
+                                            0
+                                        ],
+                                        "Tiling": [
+                                            1,
+                                            1
+                                        ]
+                                    },
+                                    "Normal": {
+                                        "Texture Path": "textures\\blender fbx_export_unity\\Baked\\EXPORT_BAKE_Std_Skin_Head_B100_Normal_1002.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    }
+                                },
+                                "Roughness_Value": 0.5,
+                                "Metallic_Value": 0.0
+                            },
+                            "Std_Skin_Body_B101": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": true,
+                                "Diffuse Color": [
+                                    255,
+                                    255,
+                                    255
+                                ],
+                                "Ambient Color": [
+                                    150.0,
+                                    150.0,
+                                    150.0
+                                ],
+                                "Specular Color": [
+                                    130,
+                                    130,
+                                    130
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Base Color": {
+                                        "Texture Path": "textures\\blender fbx_export_unity\\Baked\\EXPORT_BAKE_Std_Skin_Body_B101_Base Color_1003.png",
+                                        "Strength": 100,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Metallic": {
+                                        "Texture Path": "Baked\\Std_Skin_Body_B101_Metallic.png",
+                                        "Strength": 100,
+                                        "Offset": [
+                                            0,
+                                            0
+                                        ],
+                                        "Tiling": [
+                                            1,
+                                            1
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "Baked\\Std_Skin_Body_B101_Roughness.png",
+                                        "Strength": 100,
+                                        "Offset": [
+                                            0,
+                                            0
+                                        ],
+                                        "Tiling": [
+                                            1,
+                                            1
+                                        ]
+                                    },
+                                    "Normal": {
+                                        "Texture Path": "textures\\blender fbx_export_unity\\Baked\\EXPORT_BAKE_Std_Skin_Body_B101_Normal_1004.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    }
+                                },
+                                "Roughness_Value": 0.5,
+                                "Metallic_Value": 0.0
+                            },
+                            "Std_Skin_Arm_B102": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": true,
+                                "Diffuse Color": [
+                                    255,
+                                    255,
+                                    255
+                                ],
+                                "Ambient Color": [
+                                    150.0,
+                                    150.0,
+                                    150.0
+                                ],
+                                "Specular Color": [
+                                    130,
+                                    130,
+                                    130
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Base Color": {
+                                        "Texture Path": "textures\\blender fbx_export_unity\\Baked\\EXPORT_BAKE_Std_Skin_Arm_B102_Base Color_1005.png",
+                                        "Strength": 100,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Metallic": {
+                                        "Texture Path": "Baked\\Std_Skin_Arm_B102_Metallic.png",
+                                        "Strength": 100,
+                                        "Offset": [
+                                            0,
+                                            0
+                                        ],
+                                        "Tiling": [
+                                            1,
+                                            1
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "Baked\\Std_Skin_Arm_B102_Roughness.png",
+                                        "Strength": 100,
+                                        "Offset": [
+                                            0,
+                                            0
+                                        ],
+                                        "Tiling": [
+                                            1,
+                                            1
+                                        ]
+                                    },
+                                    "Normal": {
+                                        "Texture Path": "textures\\blender fbx_export_unity\\Baked\\EXPORT_BAKE_Std_Skin_Arm_B102_Normal_1006.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    }
+                                },
+                                "Roughness_Value": 0.5,
+                                "Metallic_Value": 0.0
+                            },
+                            "Std_Skin_Leg_B103": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": true,
+                                "Diffuse Color": [
+                                    255,
+                                    255,
+                                    255
+                                ],
+                                "Ambient Color": [
+                                    150.0,
+                                    150.0,
+                                    150.0
+                                ],
+                                "Specular Color": [
+                                    130,
+                                    130,
+                                    130
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Base Color": {
+                                        "Texture Path": "textures\\blender fbx_export_unity\\Baked\\EXPORT_BAKE_Std_Skin_Leg_B103_Base Color_1007.png",
+                                        "Strength": 100,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Metallic": {
+                                        "Texture Path": "Baked\\Std_Skin_Leg_B103_Metallic.png",
+                                        "Strength": 100,
+                                        "Offset": [
+                                            0,
+                                            0
+                                        ],
+                                        "Tiling": [
+                                            1,
+                                            1
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "Baked\\Std_Skin_Leg_B103_Roughness.png",
+                                        "Strength": 100,
+                                        "Offset": [
+                                            0,
+                                            0
+                                        ],
+                                        "Tiling": [
+                                            1,
+                                            1
+                                        ]
+                                    },
+                                    "Normal": {
+                                        "Texture Path": "textures\\blender fbx_export_unity\\Baked\\EXPORT_BAKE_Std_Skin_Leg_B103_Normal_1008.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    }
+                                },
+                                "Roughness_Value": 0.5,
+                                "Metallic_Value": 0.0
+                            },
+                            "Std_Nails_B104": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": true,
+                                "Diffuse Color": [
+                                    255,
+                                    255,
+                                    255
+                                ],
+                                "Ambient Color": [
+                                    150.0,
+                                    150.0,
+                                    150.0
+                                ],
+                                "Specular Color": [
+                                    123,
+                                    123,
+                                    123
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Base Color": {
+                                        "Texture Path": "textures\\blender fbx_export_unity\\Baked\\EXPORT_BAKE_Std_Nails_B104_Base Color_1009.png",
+                                        "Strength": 100,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Metallic": {
+                                        "Texture Path": "Baked\\Std_Nails_B104_Metallic.png",
+                                        "Strength": 100,
+                                        "Offset": [
+                                            0,
+                                            0
+                                        ],
+                                        "Tiling": [
+                                            1,
+                                            1
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "Baked\\Std_Nails_B104_Roughness.png",
+                                        "Strength": 100,
+                                        "Offset": [
+                                            0,
+                                            0
+                                        ],
+                                        "Tiling": [
+                                            1,
+                                            1
+                                        ]
+                                    },
+                                    "Normal": {
+                                        "Texture Path": "textures\\blender fbx_export_unity\\Baked\\EXPORT_BAKE_Std_Nails_B104_Normal_1010.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    }
+                                },
+                                "Roughness_Value": 0.5,
+                                "Metallic_Value": 0.0
+                            },
+                            "Std_Eyelash_B105": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": true,
+                                "Diffuse Color": [
+                                    255,
+                                    255,
+                                    255
+                                ],
+                                "Ambient Color": [
+                                    150.0,
+                                    150.0,
+                                    150.0
+                                ],
+                                "Specular Color": [
+                                    99,
+                                    99,
+                                    99
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Base Color": {
+                                        "Texture Path": "textures\\blender fbx_export_unity\\Baked\\EXPORT_BAKE_Std_Eyelash_B105_Base Color_1011.png",
+                                        "Strength": 100,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Metallic": {
+                                        "Texture Path": "Baked\\Std_Eyelash_B105_Metallic.png",
+                                        "Strength": 100,
+                                        "Offset": [
+                                            0,
+                                            0
+                                        ],
+                                        "Tiling": [
+                                            1,
+                                            1
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "Baked\\Std_Eyelash_B105_Roughness.png",
+                                        "Strength": 100,
+                                        "Offset": [
+                                            0,
+                                            0
+                                        ],
+                                        "Tiling": [
+                                            1,
+                                            1
+                                        ]
+                                    },
+                                    "Opacity": {
+                                        "Texture Path": "Baked\\Std_Eyelash_B105_Opacity.png",
+                                        "Strength": 100,
+                                        "Offset": [
+                                            0,
+                                            0
+                                        ],
+                                        "Tiling": [
+                                            1,
+                                            1
+                                        ]
+                                    },
+                                    "Normal": {
+                                        "Texture Path": "textures\\blender fbx_export_unity\\Unpack\\Std_Eyelash_B105_Normal_1001.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0,
+                                            0
+                                        ],
+                                        "Tiling": [
+                                            1,
+                                            1
+                                        ]
+                                    }
+                                },
+                                "Roughness_Value": 0.5,
+                                "Metallic_Value": 0.0
+                            }
+                        }
+                    },
+                    "Underwear_Bottoms": {
+                        "Materials": {
+                            "Underwear_Bottoms": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": true,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    149.0,
+                                    149.0,
+                                    149.0
+                                ],
+                                "Specular Color": [
+                                    229.00001525878906,
+                                    229.00001525878906,
+                                    229.00001525878906
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Metallic": {
+                                        "Texture Path": "textures\\blender fbx_export_unity\\Underwear_Bottoms\\Underwear_Bottoms\\Underwear_Bottoms\\Underwear_Bottoms_metallic.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Base Color": {
+                                        "Texture Path": "textures\\blender fbx_export_unity\\Unpack\\Underwear_Bottoms_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Specular": {
+                                        "Texture Path": "textures\\blender fbx_export_unity\\Unpack\\Underwear_Bottoms_Specular.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "textures\\blender fbx_export_unity\\Underwear_Bottoms\\Underwear_Bottoms\\Underwear_Bottoms\\Underwear_Bottoms_roughness.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Glow": {
+                                        "Texture Path": "textures\\blender fbx_export_unity\\Underwear_Bottoms\\Underwear_Bottoms\\Underwear_Bottoms\\Underwear_Bottoms_metallic.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Normal": {
+                                        "Texture Path": "textures\\blender fbx_export_unity\\Unpack\\Underwear_Bottoms_Normal.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "AO": {
+                                        "Texture Path": "textures\\blender fbx_export_unity\\Underwear_Bottoms\\Underwear_Bottoms\\Underwear_Bottoms\\Underwear_Bottoms_ao.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "CC_Base_TearLine": {
+                        "Materials": {
+                            "Std_Tearline_R": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": true,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "Specular Color": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Metallic": {
+                                        "Texture Path": "textures\\blender fbx_export_unity\\CC_Base_TearLine\\CC_Base_TearLine\\Std_Tearline_R\\Std_Tearline_R_metallic.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "textures\\blender fbx_export_unity\\CC_Base_TearLine\\CC_Base_TearLine\\Std_Tearline_R\\Std_Tearline_R_roughness.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Opacity": {
+                                        "Texture Path": "textures\\blender fbx_export_unity\\Unpack\\Std_Tearline_R_Opacity.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    }
+                                },
+                                "Custom Shader": {
+                                    "Shader Name": "RLEyeTearline",
+                                    "Image": {},
+                                    "Variable": {
+                                        "Depth Offset": 0.10000000149011612,
+                                        "Detail Amount": 0.028999999165534973,
+                                        "Detail Scale U": 2.299999952316284,
+                                        "Detail Scale V": 0.11999999731779099,
+                                        "Edge Fadeout": 1.0,
+                                        "_Roughness": 0.10000000149011612,
+                                        "OpacityForBlink": 0.9800000190734863
+                                    }
+                                }
+                            },
+                            "Std_Tearline_L": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": true,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "Specular Color": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Metallic": {
+                                        "Texture Path": "textures\\blender fbx_export_unity\\CC_Base_TearLine\\CC_Base_TearLine\\Std_Tearline_L\\Std_Tearline_L_metallic.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "textures\\blender fbx_export_unity\\CC_Base_TearLine\\CC_Base_TearLine\\Std_Tearline_L\\Std_Tearline_L_roughness.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Opacity": {
+                                        "Texture Path": "textures\\blender fbx_export_unity\\Unpack\\Std_Tearline_R_Opacity.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    }
+                                },
+                                "Custom Shader": {
+                                    "Shader Name": "RLEyeTearline",
+                                    "Image": {},
+                                    "Variable": {
+                                        "Depth Offset": 0.10000000149011612,
+                                        "Detail Amount": 0.028999999165534973,
+                                        "Detail Scale U": 2.299999952316284,
+                                        "Detail Scale V": 0.11999999731779099,
+                                        "Edge Fadeout": 1.0,
+                                        "_Roughness": 0.10000000149011612,
+                                        "OpacityForBlink": 0.9800000190734863
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "CC_Base_EyeOcclusion": {
+                        "Materials": {
+                            "Std_Eye_Occlusion_R": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": true,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "Specular Color": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Metallic": {
+                                        "Texture Path": "textures\\blender fbx_export_unity\\CC_Base_EyeOcclusion\\CC_Base_EyeOcclusion\\Std_Eye_Occlusion_R\\Std_Eye_Occlusion_R_metallic.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "textures\\blender fbx_export_unity\\CC_Base_EyeOcclusion\\CC_Base_EyeOcclusion\\Std_Eye_Occlusion_R\\Std_Eye_Occlusion_R_roughness.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Opacity": {
+                                        "Texture Path": "textures\\blender fbx_export_unity\\Unpack\\Std_Eye_Occlusion_R_Opacity.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    }
+                                },
+                                "Custom Shader": {
+                                    "Shader Name": "RLEyeOcclusion",
+                                    "Image": {},
+                                    "Variable": {
+                                        "Display Blur Range": 0.0,
+                                        "Blur Strength": 1.0,
+                                        "_Expand": 2.0,
+                                        "Top Blur Range": 0.5,
+                                        "Top Blur Contrast": 3.0,
+                                        "Bottom Blur Range": 1.0,
+                                        "Bottom Blur Contrast": 3.0,
+                                        "Outer Corner Blur Range": 0.5,
+                                        "Outer Corner Blur Contrast": 3.0,
+                                        "Tear Duct Position": 0.800000011920929,
+                                        "Tear Duct Contrast": 0.800000011920929,
+                                        "padding": 0.0,
+                                        "Shadow Color": [
+                                            69.00000348687172,
+                                            67.00000360608101,
+                                            52.000000700354576
+                                        ],
+                                        "Shadow Strength": 0.5,
+                                        "Shadow Top": 0.20000000298023224,
+                                        "Shadow Top Range": 0.800000011920929,
+                                        "Shadow Top Arc": 0.699999988079071,
+                                        "Shadow Bottom": 0.0,
+                                        "Shadow Bottom Range": 0.7239999771118164,
+                                        "Shadow Bottom Arc": 2.0,
+                                        "Shadow Inner Corner": 0.15000000596046448,
+                                        "Shadow Inner Corner Range": 0.699999988079071,
+                                        "Tear Duct Shadow Offset": 1.0,
+                                        "Shadow Outer Corner": 0.10000000149011612,
+                                        "Shadow Outer Corner Range": 0.699999988079071,
+                                        "OpacityForBlink": 1.0,
+                                        "Shadow2 Color": [
+                                            29.0,
+                                            22.0,
+                                            18.0
+                                        ],
+                                        "Shadow2 Strength": 0.5,
+                                        "Shadow2 Top": 0.25,
+                                        "Shadow2 Top Range": 0.5,
+                                        "Depth Offset": 0.10000000474974513,
+                                        "Fade Distance": 0.20000000298023224,
+                                        "Top Offset": 0.019999999552965164,
+                                        "Bottom Offset": 0.0,
+                                        "Inner Corner Offset": 0.0,
+                                        "Outer Corner Offset": 0.10000000149011612
+                                    }
+                                }
+                            },
+                            "Std_Eye_Occlusion_L": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": true,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "Specular Color": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Metallic": {
+                                        "Texture Path": "textures\\blender fbx_export_unity\\CC_Base_EyeOcclusion\\CC_Base_EyeOcclusion\\Std_Eye_Occlusion_L\\Std_Eye_Occlusion_L_metallic.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "textures\\blender fbx_export_unity\\CC_Base_EyeOcclusion\\CC_Base_EyeOcclusion\\Std_Eye_Occlusion_L\\Std_Eye_Occlusion_L_roughness.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Opacity": {
+                                        "Texture Path": "textures\\blender fbx_export_unity\\Unpack\\Std_Eye_Occlusion_R_Opacity.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    }
+                                },
+                                "Custom Shader": {
+                                    "Shader Name": "RLEyeOcclusion",
+                                    "Image": {},
+                                    "Variable": {
+                                        "Display Blur Range": 0.0,
+                                        "Blur Strength": 1.0,
+                                        "_Expand": 2.0,
+                                        "Top Blur Range": 0.5,
+                                        "Top Blur Contrast": 3.0,
+                                        "Bottom Blur Range": 1.0,
+                                        "Bottom Blur Contrast": 3.0,
+                                        "Outer Corner Blur Range": 0.5,
+                                        "Outer Corner Blur Contrast": 3.0,
+                                        "Tear Duct Position": 0.800000011920929,
+                                        "Tear Duct Contrast": 0.800000011920929,
+                                        "padding": 0.0,
+                                        "Shadow Color": [
+                                            69.00000348687172,
+                                            67.00000360608101,
+                                            52.000000700354576
+                                        ],
+                                        "Shadow Strength": 0.5,
+                                        "Shadow Top": 0.20000000298023224,
+                                        "Shadow Top Range": 0.800000011920929,
+                                        "Shadow Top Arc": 0.699999988079071,
+                                        "Shadow Bottom": 0.0,
+                                        "Shadow Bottom Range": 0.7239999771118164,
+                                        "Shadow Bottom Arc": 2.0,
+                                        "Shadow Inner Corner": 0.15000000596046448,
+                                        "Shadow Inner Corner Range": 0.699999988079071,
+                                        "Tear Duct Shadow Offset": 1.0,
+                                        "Shadow Outer Corner": 0.10000000149011612,
+                                        "Shadow Outer Corner Range": 0.699999988079071,
+                                        "OpacityForBlink": 1.0,
+                                        "Shadow2 Color": [
+                                            29.0,
+                                            22.0,
+                                            18.0
+                                        ],
+                                        "Shadow2 Strength": 0.5,
+                                        "Shadow2 Top": 0.25,
+                                        "Shadow2 Top Range": 0.5,
+                                        "Depth Offset": 0.10000000474974513,
+                                        "Fade Distance": 0.20000000298023224,
+                                        "Top Offset": 0.019999999552965164,
+                                        "Bottom Offset": 0.0,
+                                        "Inner Corner Offset": 0.0,
+                                        "Outer Corner Offset": 0.10000000149011612
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "CC_Base_Teeth": {
+                        "Materials": {
+                            "Std_Upper_Teeth": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": false,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Specular Color": [
+                                    229.5,
+                                    229.5,
+                                    229.5
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Metallic": {
+                                        "Texture Path": "textures\\blender fbx_export_unity\\CC_Base_Eye\\CC_Base_Eye\\Std_Cornea_R\\Std_Cornea_R_metallic.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Base Color": {
+                                        "Texture Path": "textures\\blender fbx_export_unity\\Unpack\\Std_Upper_Teeth_Diffuse.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "textures\\blender fbx_export_unity\\CC_Base_Teeth\\CC_Base_Teeth\\Std_Upper_Teeth\\Std_Upper_Teeth_roughness.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Normal": {
+                                        "Texture Path": "textures\\blender fbx_export_unity\\Unpack\\Std_Upper_Teeth_Normal.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "AO": {
+                                        "Texture Path": "textures\\blender fbx_export_unity\\CC_Base_Teeth\\CC_Base_Teeth\\Std_Upper_Teeth\\Std_Upper_Teeth_ao.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    }
+                                },
+                                "Custom Shader": {
+                                    "Shader Name": "RLTeethGum",
+                                    "Image": {
+                                        "MicroNormal": {
+                                            "Texture Path": "textures\\blender fbx_export_unity\\CC_Base_Teeth\\CC_Base_Teeth\\Std_Upper_Teeth\\Std_Upper_Teeth_MicroN.png"
+                                        },
+                                        "Gradient AO": {
+                                            "Texture Path": "textures\\blender fbx_export_unity\\CC_Base_Teeth\\CC_Base_Teeth\\Std_Upper_Teeth\\Std_Upper_Teeth_GradAO.jpg"
+                                        },
+                                        "Gums Mask": {
+                                            "Texture Path": "textures\\blender fbx_export_unity\\CC_Base_Teeth\\CC_Base_Teeth\\Std_Upper_Teeth\\Std_Upper_Teeth_GumsMask.jpg"
+                                        }
+                                    },
+                                    "Variable": {
+                                        "Flip MicroNormal Y": 1.0,
+                                        "Teeth MicroNormal Tiling": 10.0,
+                                        "Teeth MicroNormal Strength": 0.21899999678134918,
+                                        "Gums MicroNormal Tiling": 10.0,
+                                        "Gums MicroNormal Strength": 0.23999999463558197,
+                                        "Teeth Edge Color": [
+                                            165.0,
+                                            62.0,
+                                            41.0
+                                        ],
+                                        "Is Upper Teeth": 1.0,
+                                        "Teeth Brightness": 1.3960000276565552,
+                                        "Teeth Desaturation": 0.24300003051757812,
+                                        "Gums Brightness": 0.8999999761581421,
+                                        "Gums Desaturation": 0.18000000715255737,
+                                        "Front Roughness": 0.5049999952316284,
+                                        "Front Specular": 0.1289999932050705,
+                                        "Front AO": 0.7720000147819519,
+                                        "Back AO": 0.2290000021457672,
+                                        "Back Roughness": 0.11699999868869781,
+                                        "Back Specular": 0.22300000488758087,
+                                        "Gums Scatter": 1.0,
+                                        "Teeth Scatter": 0.4269999861717224
+                                    }
+                                },
+                                "Subsurface Scatter": {
+                                    "Falloff": [
+                                        166.00000530481339,
+                                        123.0000002682209,
+                                        101.00000157952309
+                                    ],
+                                    "Radius": 1.0,
+                                    "Distribution": 0.9300000071525574,
+                                    "IOR": 1.5499999523162842,
+                                    "DecayScale": 1.0,
+                                    "Lerp": 0.8999999761581421
+                                }
+                            },
+                            "Std_Lower_Teeth": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": false,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Specular Color": [
+                                    229.5,
+                                    229.5,
+                                    229.5
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Metallic": {
+                                        "Texture Path": "textures\\blender fbx_export_unity\\CC_Base_Eye\\CC_Base_Eye\\Std_Cornea_R\\Std_Cornea_R_metallic.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Base Color": {
+                                        "Texture Path": "textures\\blender fbx_export_unity\\Unpack\\Std_Lower_Teeth_Diffuse.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "textures\\blender fbx_export_unity\\CC_Base_Teeth\\CC_Base_Teeth\\Std_Lower_Teeth\\Std_Lower_Teeth_roughness.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Normal": {
+                                        "Texture Path": "textures\\blender fbx_export_unity\\Unpack\\Std_Lower_Teeth_Normal.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "AO": {
+                                        "Texture Path": "textures\\blender fbx_export_unity\\CC_Base_Teeth\\CC_Base_Teeth\\Std_Lower_Teeth\\Std_Lower_Teeth_ao.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    }
+                                },
+                                "Custom Shader": {
+                                    "Shader Name": "RLTeethGum",
+                                    "Image": {
+                                        "MicroNormal": {
+                                            "Texture Path": "textures\\blender fbx_export_unity\\CC_Base_Teeth\\CC_Base_Teeth\\Std_Upper_Teeth\\Std_Upper_Teeth_MicroN.png"
+                                        },
+                                        "Gradient AO": {
+                                            "Texture Path": "textures\\blender fbx_export_unity\\CC_Base_Teeth\\CC_Base_Teeth\\Std_Upper_Teeth\\Std_Upper_Teeth_GradAO.jpg"
+                                        },
+                                        "Gums Mask": {
+                                            "Texture Path": "textures\\blender fbx_export_unity\\CC_Base_Teeth\\CC_Base_Teeth\\Std_Upper_Teeth\\Std_Upper_Teeth_GumsMask.jpg"
+                                        }
+                                    },
+                                    "Variable": {
+                                        "Flip MicroNormal Y": 1.0,
+                                        "Teeth MicroNormal Tiling": 9.140000343322754,
+                                        "Teeth MicroNormal Strength": 0.20600000023841858,
+                                        "Gums MicroNormal Tiling": 3.734999895095825,
+                                        "Gums MicroNormal Strength": 0.30000001192092896,
+                                        "Teeth Edge Color": [
+                                            80.0,
+                                            30.0,
+                                            20.0
+                                        ],
+                                        "Is Upper Teeth": 0.0,
+                                        "Teeth Brightness": 1.7109999656677246,
+                                        "Teeth Desaturation": 0.2279999852180481,
+                                        "Gums Brightness": 0.9950000047683716,
+                                        "Gums Desaturation": 0.0,
+                                        "Front Roughness": 0.41999998688697815,
+                                        "Front Specular": 0.289000004529953,
+                                        "Front AO": 0.8159999847412109,
+                                        "Back AO": 0.0,
+                                        "Back Roughness": 0.0,
+                                        "Back Specular": 0.0,
+                                        "Gums Scatter": 1.0,
+                                        "Teeth Scatter": 0.5
+                                    }
+                                },
+                                "Subsurface Scatter": {
+                                    "Falloff": [
+                                        165.00000536441803,
+                                        121.00000038743019,
+                                        101.00000157952309
+                                    ],
+                                    "Radius": 1.0190000534057617,
+                                    "Distribution": 0.9900000095367432,
+                                    "IOR": 1.0,
+                                    "DecayScale": 0.9300000071525574,
+                                    "Lerp": 0.8999999761581421
+                                }
+                            }
+                        }
+                    },
+                    "CC_Base_Eye": {
+                        "Materials": {
+                            "Std_Eye_R": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": false,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    50.000003814697266,
+                                    50.000003814697266,
+                                    50.000003814697266
+                                ],
+                                "Specular Color": [
+                                    229.00001525878906,
+                                    229.00001525878906,
+                                    229.00001525878906
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Metallic": {
+                                        "Texture Path": "textures\\blender fbx_export_unity\\CC_Base_Eye\\CC_Base_Eye\\Std_Cornea_R\\Std_Cornea_R_metallic.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Base Color": {
+                                        "Texture Path": "textures\\blender fbx_export_unity\\Unpack\\Std_Cornea_R_Diffuse.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "textures\\blender fbx_export_unity\\CC_Base_Eye\\CC_Base_Eye\\Std_Eye_R\\Std_Eye_R_roughness.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Normal": {
+                                        "Texture Path": "textures\\blender fbx_export_unity\\Unpack\\Std_Eye_R_Normal.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "AO": {
+                                        "Texture Path": "textures\\blender fbx_export_unity\\CC_Base_Eye\\CC_Base_Eye\\Std_Cornea_R\\Std_Cornea_R_ao.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0,
+                                            0
+                                        ],
+                                        "Tiling": [
+                                            1,
+                                            1
+                                        ]
+                                    }
+                                }
+                            },
+                            "Std_Cornea_R": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": false,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    50.000003814697266,
+                                    50.000003814697266,
+                                    50.000003814697266
+                                ],
+                                "Specular Color": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "Opacity": 0.800000011920929,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Metallic": {
+                                        "Texture Path": "textures\\blender fbx_export_unity\\CC_Base_Eye\\CC_Base_Eye\\Std_Cornea_R\\Std_Cornea_R_metallic.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Base Color": {
+                                        "Texture Path": "textures\\blender fbx_export_unity\\Unpack\\Std_Cornea_R_Diffuse.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "textures\\blender fbx_export_unity\\CC_Base_Eye\\CC_Base_Eye\\Std_Cornea_R\\Std_Cornea_R_roughness.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "AO": {
+                                        "Texture Path": "textures\\blender fbx_export_unity\\CC_Base_Eye\\CC_Base_Eye\\Std_Cornea_R\\Std_Cornea_R_ao.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    }
+                                },
+                                "Custom Shader": {
+                                    "Shader Name": "RLEye",
+                                    "Image": {
+                                        "Iris Normal": {
+                                            "Texture Path": "textures\\blender fbx_export_unity\\CC_Base_Eye\\CC_Base_Eye\\Std_Cornea_R\\Std_Cornea_R_IrisN.png"
+                                        },
+                                        "Sclera Normal": {
+                                            "Texture Path": "textures\\blender fbx_export_unity\\CC_Base_Teeth\\CC_Base_Teeth\\Std_Upper_Teeth\\Std_Upper_Teeth_MicroN.png"
+                                        },
+                                        "EyeBlendMap2": {
+                                            "Texture Path": "textures\\blender fbx_export_unity\\CC_Base_Eye\\CC_Base_Eye\\Std_Cornea_R\\Std_Cornea_R_BCBMap.jpg"
+                                        },
+                                        "Inner Iris Mask": {
+                                            "Texture Path": "textures\\blender fbx_export_unity\\CC_Base_Eye\\CC_Base_Eye\\Std_Cornea_R\\Std_Cornea_R_IrisMask.png"
+                                        },
+                                        "Sclera": {
+                                            "Texture Path": "textures\\blender fbx_export_unity\\CC_Base_Eye\\CC_Base_Eye\\Std_Cornea_R\\Std_Cornea_R_Sclera.jpg"
+                                        }
+                                    },
+                                    "Variable": {
+                                        "BlendMap2 Strength": 0.0,
+                                        "Shadow Radius": 0.4000000059604645,
+                                        "Shadow Hardness": 0.5,
+                                        "Specular Scale": 0.800000011920929,
+                                        "Is Left Eye": 1.0,
+                                        "Eye Corner Darkness Color": [
+                                            255.0,
+                                            187.98600554466248,
+                                            178.99980694055557
+                                        ],
+                                        "Iris Depth Scale": 0.8999999463558197,
+                                        "_Iris Roughness": 0.0,
+                                        "Iris Color Brightness": 1.0,
+                                        "Pupil Scale": 0.9549999833106995,
+                                        "_IoR": 1.399999976158142,
+                                        "Iris Cloudy Color": [
+                                            0.0,
+                                            2.5499999430030584,
+                                            2.5499999430030584
+                                        ],
+                                        "Iris Inner Color": [
+                                            255.0,
+                                            223.00000190734863,
+                                            125.00000014901161
+                                        ],
+                                        "Iris Inner Scale": 0.0,
+                                        "Iris UV Radius": 0.1599999964237213,
+                                        "Iris Color": [
+                                            255.0,
+                                            255.0,
+                                            255.0
+                                        ],
+                                        "Limbus UV Width Color": 0.04500000178813934,
+                                        "Limbus Dark Scale": 6.714969680132909,
+                                        "ScleraBrightness": 0.6499999761581421,
+                                        "Sclera Roughness": 0.20000000298023224,
+                                        "Sclera Flatten Normal": 0.8999999761581421,
+                                        "Sclera Normal UV Scale": 0.5,
+                                        "Sclera UV Radius": 0.9300000071525574
+                                    }
+                                },
+                                "Subsurface Scatter": {
+                                    "Falloff": [
+                                        255.0,
+                                        255.0,
+                                        255.0
+                                    ],
+                                    "Radius": 5.0,
+                                    "Distribution": 0.9300000071525574,
+                                    "IOR": 1.5499999523162842,
+                                    "DecayScale": 1.0,
+                                    "Lerp": 0.8500000238418579
+                                }
+                            },
+                            "Std_Eye_L": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": false,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    50.000003814697266,
+                                    50.000003814697266,
+                                    50.000003814697266
+                                ],
+                                "Specular Color": [
+                                    229.00001525878906,
+                                    229.00001525878906,
+                                    229.00001525878906
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Metallic": {
+                                        "Texture Path": "textures\\blender fbx_export_unity\\CC_Base_Eye\\CC_Base_Eye\\Std_Cornea_R\\Std_Cornea_R_metallic.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Base Color": {
+                                        "Texture Path": "textures\\blender fbx_export_unity\\Unpack\\Std_Cornea_L_Diffuse.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "textures\\blender fbx_export_unity\\CC_Base_Eye\\CC_Base_Eye\\Std_Eye_L\\Std_Eye_L_roughness.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Normal": {
+                                        "Texture Path": "textures\\blender fbx_export_unity\\Unpack\\Std_Eye_L_Normal.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "AO": {
+                                        "Texture Path": "textures\\blender fbx_export_unity\\CC_Base_Eye\\CC_Base_Eye\\Std_Cornea_R\\Std_Cornea_R_ao.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0,
+                                            0
+                                        ],
+                                        "Tiling": [
+                                            1,
+                                            1
+                                        ]
+                                    }
+                                }
+                            },
+                            "Std_Cornea_L": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": false,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    50.000003814697266,
+                                    50.000003814697266,
+                                    50.000003814697266
+                                ],
+                                "Specular Color": [
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                "Opacity": 0.800000011920929,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Metallic": {
+                                        "Texture Path": "textures\\blender fbx_export_unity\\CC_Base_Eye\\CC_Base_Eye\\Std_Cornea_R\\Std_Cornea_R_metallic.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Base Color": {
+                                        "Texture Path": "textures\\blender fbx_export_unity\\Unpack\\Std_Cornea_L_Diffuse.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "textures\\blender fbx_export_unity\\CC_Base_Eye\\CC_Base_Eye\\Std_Cornea_L\\Std_Cornea_L_roughness.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    },
+                                    "AO": {
+                                        "Texture Path": "textures\\blender fbx_export_unity\\CC_Base_Eye\\CC_Base_Eye\\Std_Cornea_R\\Std_Cornea_R_ao.jpg",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0.0,
+                                            0.0
+                                        ],
+                                        "Tiling": [
+                                            1.0,
+                                            1.0
+                                        ]
+                                    }
+                                },
+                                "Custom Shader": {
+                                    "Shader Name": "RLEye",
+                                    "Image": {
+                                        "Iris Normal": {
+                                            "Texture Path": "textures\\blender fbx_export_unity\\CC_Base_Eye\\CC_Base_Eye\\Std_Cornea_R\\Std_Cornea_R_IrisN.png"
+                                        },
+                                        "Sclera Normal": {
+                                            "Texture Path": "textures\\blender fbx_export_unity\\CC_Base_Teeth\\CC_Base_Teeth\\Std_Upper_Teeth\\Std_Upper_Teeth_MicroN.png"
+                                        },
+                                        "EyeBlendMap2": {
+                                            "Texture Path": "textures\\blender fbx_export_unity\\CC_Base_Eye\\CC_Base_Eye\\Std_Cornea_R\\Std_Cornea_R_BCBMap.jpg"
+                                        },
+                                        "Inner Iris Mask": {
+                                            "Texture Path": "textures\\blender fbx_export_unity\\CC_Base_Eye\\CC_Base_Eye\\Std_Cornea_R\\Std_Cornea_R_IrisMask.png"
+                                        },
+                                        "Sclera": {
+                                            "Texture Path": "textures\\blender fbx_export_unity\\CC_Base_Eye\\CC_Base_Eye\\Std_Cornea_R\\Std_Cornea_R_Sclera.jpg"
+                                        }
+                                    },
+                                    "Variable": {
+                                        "BlendMap2 Strength": 0.0,
+                                        "Shadow Radius": 0.4000000059604645,
+                                        "Shadow Hardness": 0.5,
+                                        "Specular Scale": 0.800000011920929,
+                                        "Is Left Eye": 1.0,
+                                        "Eye Corner Darkness Color": [
+                                            255.0,
+                                            187.98600554466248,
+                                            178.99980694055557
+                                        ],
+                                        "Iris Depth Scale": 0.8999999463558197,
+                                        "_Iris Roughness": 0.0,
+                                        "Iris Color Brightness": 1.0,
+                                        "Pupil Scale": 0.9549999833106995,
+                                        "_IoR": 1.399999976158142,
+                                        "Iris Cloudy Color": [
+                                            0.0,
+                                            2.5499999430030584,
+                                            2.5499999430030584
+                                        ],
+                                        "Iris Inner Color": [
+                                            255.0,
+                                            223.00000190734863,
+                                            125.00000014901161
+                                        ],
+                                        "Iris Inner Scale": 0.0,
+                                        "Iris UV Radius": 0.1599999964237213,
+                                        "Iris Color": [
+                                            255.0,
+                                            255.0,
+                                            255.0
+                                        ],
+                                        "Limbus UV Width Color": 0.04500000178813934,
+                                        "Limbus Dark Scale": 6.714969680132909,
+                                        "ScleraBrightness": 0.6499999761581421,
+                                        "Sclera Roughness": 0.20000000298023224,
+                                        "Sclera Flatten Normal": 0.8999999761581421,
+                                        "Sclera Normal UV Scale": 0.5,
+                                        "Sclera UV Radius": 0.9300000071525574
+                                    }
+                                },
+                                "Subsurface Scatter": {
+                                    "Falloff": [
+                                        255.0,
+                                        255.0,
+                                        255.0
+                                    ],
+                                    "Radius": 5.0,
+                                    "Distribution": 0.9300000071525574,
+                                    "IOR": 1.5499999523162842,
+                                    "DecayScale": 1.0,
+                                    "Lerp": 0.8500000238418579
+                                }
+                            }
+                        }
+                    }
+                },
+                "Physics": {
+                    "Soft Physics": {
+                        "Meshes": {}
+                    }
+                },
+                "Bind_Pose": "APose"
+            }
+        },
+        "Blender_Project": true,
+        "Facial_Profile": {
+            "Categories": {
+                "Visemes": [
+                    "Open",
+                    "Explosive",
+                    "Dental_Lip",
+                    "Tight-O",
+                    "Tight",
+                    "Wide",
+                    "Affricate",
+                    "Lip_Open",
+                    "Tongue_up",
+                    "Tongue_Raise",
+                    "Tongue_Out",
+                    "Tongue_Narrow",
+                    "Tongue_Lower",
+                    "Tongue_Curl-U",
+                    "Tongue_Curl-D"
+                ],
+                "Custom": [
+                    "Brow_Raise_Inner_L",
+                    "Brow_Raise_Inner_R",
+                    "Brow_Raise_Outer_L",
+                    "Brow_Raise_Outer_R",
+                    "Brow_Drop_L",
+                    "Brow_Drop_R",
+                    "Brow_Raise_L",
+                    "Brow_Raise_R",
+                    "Eye_Blink",
+                    "Eye_Blink_L",
+                    "Eye_Blink_R",
+                    "Eye_Wide_L",
+                    "Eye_Wide_R",
+                    "Eye_Squint_L",
+                    "Eye_Squint_R",
+                    "Nose_Scrunch",
+                    "Nose_Flanks_Raise",
+                    "Nose_Flank_Raise_L",
+                    "Nose_Flank_Raise_R",
+                    "Nose_Nostrils_Flare",
+                    "Cheek_Raise_L",
+                    "Cheek_Raise_R",
+                    "Cheek_Suck",
+                    "Cheek_Blow_L",
+                    "Cheek_Blow_R",
+                    "Mouth_Smile",
+                    "Mouth_Smile_L",
+                    "Mouth_Smile_R",
+                    "Mouth_Frown",
+                    "Mouth_Frown_L",
+                    "Mouth_Frown_R",
+                    "Mouth_Blow",
+                    "Mouth_Pucker",
+                    "Mouth_Pucker_Open",
+                    "Mouth_Widen",
+                    "Mouth_Widen_Sides",
+                    "Mouth_Dimple_L",
+                    "Mouth_Dimple_R",
+                    "Mouth_Plosive",
+                    "Mouth_Lips_Tight",
+                    "Mouth_Lips_Tuck",
+                    "Mouth_Lips_Open",
+                    "Mouth_Lips_Part",
+                    "Mouth_Bottom_Lip_Down",
+                    "Mouth_Top_Lip_Up",
+                    "Mouth_Top_Lip_Under",
+                    "Mouth_Bottom_Lip_Under",
+                    "Mouth_Snarl_Upper_L",
+                    "Mouth_Snarl_Upper_R",
+                    "Mouth_Snarl_Lower_L",
+                    "Mouth_Snarl_Lower_R",
+                    "Mouth_Bottom_Lip_Bite",
+                    "Mouth_Down",
+                    "Mouth_Up",
+                    "Mouth_L",
+                    "Mouth_R",
+                    "Mouth_Lips_Jaw_Adjust",
+                    "Mouth_Bottom_Lip_Trans",
+                    "Mouth_Skewer",
+                    "Mouth_Open"
+                ]
+            }
+        }
+    }
+}
