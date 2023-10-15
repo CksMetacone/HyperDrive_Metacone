@@ -15,7 +15,8 @@ You can find detailed information about metacone on our website.(https://metacon
 
 https://www.youtube.com/watch?v=8WDZJxqpyLI
 
-HyperDrive presentation : loading
+HyperDrive presentation Demo1: https://www.youtube.com/watch?v=ov1cEDAmiio  
+                        Demo2: https://www.youtube.com/watch?v=3bhYghIGPD8&t=5s
 
 Version Closed Beta presentation : https://www.youtube.com/shorts/H20YUjibCgM
 
